@@ -1,0 +1,475 @@
+@import url(//db.onlinewebfonts.com/c/88d114dba578a3672ae67cd3d8a9dcf1?family=Fight+Kick+Demo);
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+*{
+    margin: 0; 
+}
+
+
+.arist{
+    font-family: 'Fight Kick Demo';
+    position: absolute;
+    left: 137px;
+    top: 235px;
+    font-weight: 400;
+    font-size: 164px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Unique-name{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    font-weight: 300;
+    font-size: 12px;
+    font-family: 'Poppins';
+    line-height: 170%;
+    letter-spacing: 0.5px;
+    color: #474747;
+    width: 10%;
+}
+
+.row > .attack-logo{
+    width: 12%;
+    position: absolute;
+    top: 1rem;
+    left: 42.5rem;
+}
+
+.selector{
+    width: 350px;
+    font-family: 'Poppins';
+    font-size: 11px;
+}
+
+#selectField{
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    width: 6%;
+    background: transparent;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    left: 88rem;
+}
+
+#selectField img{
+    width: 9px;
+    transition: transform 0.5s;
+    position: relative;
+    top: -9px;
+    left: -14px;
+}
+
+#list{
+    width: 5%;
+    background: #6b717a;
+    overflow: hidden;
+    position: absolute;
+    top: 4rem;
+    left: 88rem;
+    padding-left: 22px;
+    padding-top: 5px;
+    transition: all 0.10s ease-in-out;
+    border-radius: 5px;
+    color: #fff;
+}
+
+ul li p{
+    margin-bottom: 6px;
+}
+
+.options{
+    width: 40%;
+    padding: 0px;
+    list-style: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+.rotate{
+    transform: rotate(180deg);
+}
+
+#searchBox{
+    position: absolute;
+    top: 28.3rem;
+    left: 9rem;
+    width: 22%;
+    height: 60px;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: #2a3026bd;
+    display: flex;
+    align-items: center;
+}
+
+#googleIcon{
+    width: 50px;
+    cursor: pointer;
+}
+
+.mic-icon{
+    width: 30px;
+}
+
+input{
+    font-size: 20px;
+    width: 500px;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+::placeholder{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+}
+
+#fan-club{
+    position: absolute;
+    top: 18rem;
+    left: 9.5rem;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Poppins';
+    line-height: 170%;
+    letter-spacing: 0.5px;
+    color: #474747;
+    width: 10%;
+}
+
+.guide{
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.season{
+    margin-top: 20px;
+    font-family: 'Fight Kick Demo';
+    font-weight: 400;
+    font-size: 95px;
+    position: relative;
+    top: -3.5rem;
+    color: #CBD5E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    padding: 15px;
+}
+
+.img{
+    position: relative;
+    width: 287px;
+    left: 7rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.overlay-box{
+    width: 250%;
+    position: relative;
+    top: 0;
+    left: 15rem;
+    height: 145%;
+    margin-bottom: 50px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 8px;
+    box-shadow: -6px 10px 15px -1px rgba(0, 0, 0, 0.15),
+                6px 10px 15px -1px rgba(255, 255, 255, 0.7);
+}
+
+.overlay-box1{
+    width: 250%;
+    position: relative;
+    top: 0;
+    left: 16rem;
+    height: 145%;
+    margin-bottom: 50px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 8px;
+    box-shadow: -6px 10px 15px -1px rgba(0, 0, 0, 0.15),
+                6px 10px 15px -1px rgba(255, 255, 255, 0.7);
+}
+
+.overlay-box2{
+    width: 250%;
+    position: relative;
+    top: 0;
+    left: 2rem;
+    height: 145%;
+    margin-bottom: 50px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 8px;
+    box-shadow: -6px 10px 15px -1px rgba(0, 0, 0, 0.15),
+                6px 10px 15px -1px rgba(255, 255, 255, 0.7);
+}
+
+.overlay-box3{
+    width: 250%;
+    position: relative;
+    top: 0;
+    left: -35rem;
+    height: 145%;
+    margin-bottom: 50px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 8px;
+    box-shadow: -6px 10px 15px -1px rgba(0, 0, 0, 0.15),
+                6px 10px 15px -1px rgba(255, 255, 255, 0.7);
+}
+
+.overlay-letter{
+    font-family: 'Fight Kick Demo';
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+}
+
+.overlay-logo{
+    position: relative;
+    left: 19rem;
+    top: -4rem;
+}
+
+.overlay-logo1{
+    position: relative;
+    left: 4rem;
+}
+
+.overlay-info{
+    font-family: 'Bungee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 170%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+    text-transform: uppercase;
+    color: #606060;
+}
+
+.overlay3{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.popover__title{
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+  }
+  
+.popover__wrapper{
+    position: relative;
+    display: inline-block;
+}
+
+.popover__content{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    transform: translate(0, 10px);
+}
+
+.popover__content:before{
+    position: absolute;
+    z-index: -1;
+    content: "";
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.popover__wrapper:hover .popover__content{
+    z-index: 10;
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0, -20px);
+    transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}
+
+.popover__message{
+    text-align: center;
+}
+  
+a.modal-open{
+    display:block;
+    font-weight:bold;
+    border-radius:2px;
+    text-align:center;
+    text-decoration:none;
+}
+
+.modal{
+    width:100%;
+    height:100%;
+    bottom:0px;
+    transition:all .5s ease-in-out;
+    opacity:0;
+}
+
+.modal:target{
+    opacity:1;
+    transition:all .5s ease-in-out;
+}
+
+.modal-content{
+    background:#fff;
+    border-radius:4px;
+    transform:translate(-50%, -200%);
+    transition:all .5s ease-in-out;
+    perspective: 1000;
+    opacity:0;
+}
+
+.modal:target .modal-content{
+    transform:translate(-50%, -50%);
+    transition:all .5s ease-in-out;
+    transition-delay:.5s;
+    z-index:9999;
+    opacity:1;
+}
+
+.modal-close{
+    transition:all .5s ease-in-out;
+    z-index:+1;
+    background:rgba(0,0,0,0.1);
+    text-align:center;
+    border-radius:0 4px 0 0;
+}
+
+.modal-close:hover {
+    color:#fff;
+    background:rgba(0,0,0,0.5);
+    
+}
+
+.modal-area {
+    padding:20px;
+}
+
+
+@media (max-width:768px){
+
+    
+    .row > .attack-logo {
+        width: 12%;
+        position: absolute;
+        top: 5px;
+        left: 10.5rem;
+    }
+
+    #Unique-name {
+        position: absolute;
+        top: 9px;
+        left: -2px;
+        font-size: 5px;
+    }
+
+    #selectField{
+        position: absolute;
+        top: -7px;
+        left: 19.5rem;
+    }
+
+    .selector{
+        font-family: 'Poppins';
+        font-size: 6px;
+    }
+
+    #list{
+        width: 14%;
+        position: absolute;
+        top: 20px;
+        left: 19.5rem;
+    }
+
+    #selectField img {
+        width: 5px;
+        transition: transform 0.5s;
+        position: relative;
+        top: -9px;
+        left: 3px;
+    }
+
+    .arist{
+        position: absolute;
+        left: 40px;
+        top: 53px;
+        font-size: 35px;
+    }
+
+    input{
+        width: 100;
+    }
+    #fan-club{
+        position: absolute;
+        top: 63px;
+        left: 42px;
+        font-weight: 600;
+        font-size: 4px;
+    }
+
+    .popover__content{
+        display: none;
+    }
+
+    #searchBox{
+        position: absolute;
+        top: 6.3rem;
+        left: 3rem;
+        width: 71%;
+        height: 36px;
+        border-radius: 8px;
+        padding: 23px;
+    }
+
+    .guide{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .season{
+        margin-top: 19px;
+        font-size: 44px;
+    }
+
+    .img__wrap{
+        position: relative;
+        left: -5rem;
+    }
+
+    .popover__title{
+        margin-top: 23px;
+    }
+}
